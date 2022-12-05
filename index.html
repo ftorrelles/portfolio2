@@ -32,8 +32,7 @@
                         <a href="#contacts">Contacto</a>
                     </li>
                 </ul>
-                <i class="bx bxs-sun"></i>
-                <i class="bx"></i>
+                <i class="bx bx-sun"></i>
                 <i class="bx bx-menu"></i>
             </nav>
         </header>
@@ -58,7 +57,7 @@
                     <h1>Diseñador y desarrollador web</h1>
                 </div>
                 <div class="home_social">
-                    <ul>
+                    <ul class="social">
                         <li>
                             <a
                                 href="https://www.linkedin.com/in/francisco-torrelles-227771209/"
@@ -69,18 +68,18 @@
                         </li>
                     </ul>
 
-                    <ul>
+                    <ul class="social">
                         <li>
                             <a
                                 href="https://www.instagram.com/"
                                 target="_blank"
                             >
-                                <i class="bx bxl-instagram"></i>
+                                <i class="bx bxl-instagram-alt"></i>
                             </a>
                         </li>
                     </ul>
 
-                    <ul>
+                    <ul class="social">
                         <li>
                             <a
                                 href="https://twitter.com/torrellesf"
@@ -94,7 +93,7 @@
             </section>
 
             <section class="about" id="about">
-                <h2>Acerca de mi</h2>
+                <h2 class="h2-about">Acerca de mi</h2>
                 <div class="about_paragraph">
                     <p>
                         Estudiante de
@@ -120,116 +119,82 @@
                 </div>
             </section>
 
-            <div class="circle" id="circle1"></div>
-
             <section class="skills" id="skills">
-                <h2>Mis habilidades</h2>
+                <h2 class="h2-skills">Mis habilidades</h2>
                 <div class="skills_content">
                     <div class="skills_content-items">
-                        <div class="skills_content-items-img">
-                            <svg
-                                width="56"
-                                height="44"
-                                viewBox="0 0 56 44"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M40.6875 2.66406H15.3125C13.382 2.66406 11.8125 3.89727 11.8125 5.41406V38.4141C11.8125 39.9309 13.382 41.1641 15.3125 41.1641H40.6875C42.618 41.1641 44.1875 39.9309 44.1875 38.4141V5.41406C44.1875 3.89727 42.618 2.66406 40.6875 2.66406ZM28 35.4062C26.7914 35.4062 25.8125 34.6371 25.8125 33.6875C25.8125 32.7379 26.7914 31.9688 28 31.9688C29.2086 31.9688 30.1875 32.7379 30.1875 33.6875C30.1875 34.6371 29.2086 35.4062 28 35.4062Z"
-                                    fill="white"
-                                />
-                            </svg>
+                        <div class="skills_content-items-img js">
+                            <i class="fa-brands fa-js"></i>
                         </div>
-                        <p>Mobile app design</p>
+                        <p><strong>JavaScript</strong></p>
                     </div>
 
                     <div class="skills_content-items">
-                        <div class="skills_content-items-img">
-                            <svg
-                                width="56"
-                                height="61"
-                                viewBox="0 0 56 61"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M16.3333 33.0417H6.99996C5.71663 33.0417 4.66663 31.8979 4.66663 30.5C4.66663 29.1021 5.71663 27.9583 6.99996 27.9583H16.3333C17.6166 27.9583 18.6666 29.1021 18.6666 30.5C18.6666 31.8979 17.6166 33.0417 16.3333 33.0417ZM14 20.3333C14 18.9354 12.95 17.7917 11.6666 17.7917H9.33329C8.04996 17.7917 6.99996 18.9354 6.99996 20.3333C6.99996 21.7313 8.04996 22.875 9.33329 22.875H11.6666C12.95 22.875 14 21.7313 14 20.3333ZM51.3333 30.5C51.3333 37.515 46.1066 43.2083 39.6666 43.2083H9.33329C8.04996 43.2083 6.99996 42.0646 6.99996 40.6667C6.99996 39.2688 8.04996 38.125 9.33329 38.125H30.3333C29.3533 36.6508 28.5833 34.9225 28.2333 33.0417H23.3333C22.05 33.0417 21 31.8979 21 30.5C21 29.1021 22.05 27.9583 23.3333 27.9583H28.2333C28.5833 26.0775 29.3533 24.3492 30.3333 22.875H18.6666C17.3833 22.875 16.3333 21.7313 16.3333 20.3333C16.3333 18.9354 17.3833 17.7917 18.6666 17.7917H39.6666C46.1066 17.7917 51.3333 23.485 51.3333 30.5Z"
-                                    fill="white"
-                                />
-                            </svg>
+                        <div class="skills_content-items-img css">
+                            <i class="fa-brands fa-css3"></i>
                         </div>
-                        <p>Motion design</p>
+                        <p><strong>CSS</strong></p>
                     </div>
 
                     <div class="skills_content-items">
-                        <div class="skills_content-items-img">
-                            <svg
-                                width="56"
-                                height="57"
-                                viewBox="0 0 56 57"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M49 28.5C49 23.6788 47.4367 19.2138 44.3334 15.1525V41.8712C47.4367 37.9287 49 33.4637 49 28.5ZM41.1367 45.125H14.8867C16.4734 46.4313 18.55 47.5 21.1167 48.4737C23.66 49.4 25.97 49.875 28 49.875C30.0534 49.875 32.34 49.4 34.8834 48.4737C37.45 47.5 39.5267 46.4313 41.1367 45.125ZM25.6667 40.375L16.3334 21.375V40.375H25.6667ZM39.6667 21.375L30.3334 40.375H39.6667V21.375ZM28 34.5087L36.75 16.625H19.25L28 34.5087V34.5087ZM41.1367 11.875C37.2634 8.71625 32.8767 7.125 28 7.125C23.1234 7.125 18.7367 8.71625 14.8867 11.875H41.1367ZM11.6667 41.8712V15.1525C8.56337 19.2138 7.00004 23.6788 7.00004 28.5C7.00004 33.4637 8.56337 37.9287 11.6667 41.8712ZM53.6667 28.5C53.6667 35.6962 51.1934 41.8713 46.1534 46.9775C41.1367 52.1075 35.07 54.625 28 54.625C20.93 54.625 14.8867 52.1075 9.84671 46.9775C4.80671 41.8713 2.33337 35.6962 2.33337 28.5C2.33337 21.3038 4.80671 15.1525 9.84671 10.0225C14.8867 4.8925 20.93 2.375 28 2.375C35.07 2.375 41.1367 4.8925 46.1534 10.0225C51.1934 15.1525 53.6667 21.3038 53.6667 28.5Z"
-                                    fill="white"
-                                />
-                            </svg>
+                        <div class="skills_content-items-img html">
+                            <i class="fa-brands fa-html5"></i>
                         </div>
-                        <p>Creación de sistemas de diseño</p>
+                        <p><strong>HTML</strong></p>
                     </div>
 
                     <div class="skills_content-items">
-                        <div class="skills_content-items-img">
-                            <svg
-                                width="56"
-                                height="56"
-                                viewBox="0 0 56 56"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M44.3333 9.33334H11.6667C10.429 9.33334 9.242 9.825 8.36683 10.7002C7.49167 11.5753 7 12.7623 7 14V42C7 43.2377 7.49167 44.4247 8.36683 45.2998C9.242 46.175 10.429 46.6667 11.6667 46.6667H44.3333C46.9 46.6667 49 44.5667 49 42V14C49 12.7623 48.5083 11.5753 47.6332 10.7002C46.758 9.825 45.571 9.33334 44.3333 9.33334V9.33334ZM44.3333 42H11.6667V18.6667H44.3333V42Z"
-                                    fill="white"
-                                />
-                            </svg>
+                        <div class="skills_content-items-img gitHub">
+                            <i class="fa-brands fa-github"></i>
                         </div>
-                        <p>Desarrollo web</p>
+                        <p><strong>github</strong></p>
+                    </div>
+
+                    <div class="skills_content-items">
+                        <div class="skills_content-items-img dev">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <p><strong>Desarrollo web</strong></p>
+                    </div>
+
+                    <div class="skills_content-items">
+                        <div class="skills_content-items-img powerBi">
+                            <i class="fa-solid fa-chart-bar"></i>
+                        </div>
+                        <p><strong>Power Bi</strong></p>
                     </div>
                 </div>
             </section>
 
             <section class="experince" id="experience">
-                <h2>Experiencia</h2>
+                <h2 class="h2-Experince">Experiencia</h2>
                 <div class="experience_content">
-                    <p>2016-2018</p>
+                    <p class="yearsExperience">sep 2022 - actualmente</p>
                     <div class="experience_content-description">
-                        <h4>Visual designer</h4>
-                        <p>Wizeline</p>
+                        <h4>Full stack dev. Bootcamp</h4>
+                        <p class="empresa1">Academlo</p>
                     </div>
                 </div>
-                <hr />
+                <div class="line firstLine"></div>
                 <div class="experience_content">
-                    <p>2018-2019</p>
+                    <p class="yearsExperience">Ene 2021 - Ago 2022</p>
                     <div class="experience_content-description">
-                        <h4>Product designer</h4>
-                        <p>Microsoft</p>
+                        <h4>Analista Bienestar-Op</h4>
+                        <p class="empresa2">Dichter & Neira</p>
                     </div>
                 </div>
-                <hr />
+                <div class="line secondLine"></div>
                 <div class="experience_content">
-                    <p>2019-2021</p>
+                    <p class="yearsExperience">Ago 2010 - Jul 2013</p>
                     <div class="experience_content-description">
-                        <h4>UI Engineer</h4>
-                        <p>Google</p>
+                        <h4>Practicante administrativo</h4>
+                        <p class="empresa3">Del Monte Foods</p>
                     </div>
                 </div>
             </section>
 
-            <div class="circle" id="circle2"></div>
-
             <section class="portfolio" id="portfolio">
-                <h2>Portafolio</h2>
+                <h2 class="h2-Portfolio">Portafolio</h2>
                 <div class="portfolio_content">
                     <div class="porfolio_img">
                         <img
@@ -255,13 +220,15 @@
             </section>
 
             <section class="contacts" id="contacts">
-                <h2>Contacto</h2>
+                <h2 class="h2-Contacts">Contacto</h2>
                 <div class="contacts_content">
                     <div class="contacts_content-item">
                         <div class="contacts_content-item-img">
                             <i class="bx bx-phone-call"></i>
                         </div>
-                        <p class="title_data">Numero celular</p>
+                        <p class="title_data">
+                            <strong>Numero celular</strong>
+                        </p>
                         <p class="data">+58 4125974805</p>
                     </div>
 
@@ -269,7 +236,7 @@
                         <div class="contacts_content-item-img">
                             <i class="bx bxl-gmail"></i>
                         </div>
-                        <p class="title_data">Email</p>
+                        <p class="title_data"><strong>Email</strong></p>
                         <p class="data">torrellesf93@gmail.com</p>
                     </div>
                 </div>
@@ -286,7 +253,10 @@
                 </p>
             </footer>
         </main>
-
+        <script
+            src="https://kit.fontawesome.com/a5cc81e1ff.js"
+            crossorigin="anonymous"
+        ></script>
         <script src="./src/js/main.js"></script>
     </body>
 </html>
