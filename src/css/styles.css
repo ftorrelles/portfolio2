@@ -252,6 +252,18 @@ main {
     font-size: 3.4rem;
     color: var(--Cream);
 }
+.bxl-react {
+    font-size: 3.4rem;
+    color: var(--Cream);
+}
+.bxl-nodejs {
+    font-size: 3.4rem;
+    color: var(--Cream);
+}
+.bxl-bootstrap {
+    font-size: 3.4rem;
+    color: var(--Cream);
+}
 
 .skills_content-items p {
     font-size: 0.7rem;
